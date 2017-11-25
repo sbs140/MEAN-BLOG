@@ -1,0 +1,28 @@
+{
+  "name": "meanblog",
+  "description": "\"# MEAN-BLOG\"",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbs140/MEAN-BLOG.git"
+  },
+  "keywords": [
+    "mean",
+    "blog"
+  ],
+  "author": "Simeon Stoyanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbs140/MEAN-BLOG/issues"
+  },
+  "homepage": "https://github.com/sbs140/MEAN-BLOG#readme",
+  "dependencies": {
+    "@angular/core": "^5.0.3",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.5"
+  }
+}
