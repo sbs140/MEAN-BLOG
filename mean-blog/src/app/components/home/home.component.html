@@ -1,0 +1,10 @@
+
+<div class="jumbotron">
+            <h1 class="display-3" >Welcome to Trip Advisor</h1>
+            <h3>The perfect place to share your travel adventures!</h3>
+            <p>
+              <a *ngIf="!authService.loggedIn()" class="btn btn-outline-primary btn-lg" [routerLink]="['/register']" role="button">Register &raquo;</a>
+              <a *ngIf="!authService.loggedIn()" class="btn btn-outline-success btn-lg" [routerLink]="['/login']" role="button">Login &raquo;</a>
+              <a *ngIf="authService.loggedIn()" class="btn btn-outline-info btn-lg" [routerLink]="['/blog']" role="button"> View Blogs &raquo;</a>
+            </p>
+</div>

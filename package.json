@@ -22,7 +22,13 @@
   "homepage": "https://github.com/sbs140/MEAN-BLOG#readme",
   "dependencies": {
     "@angular/core": "^5.0.3",
+    "angular-jwt": "^0.1.9",
+    "angular2-flash-messages": "^2.0.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "express": "^4.16.2",
-    "mongoose": "^4.13.5"
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.10.8"
   }
 }
